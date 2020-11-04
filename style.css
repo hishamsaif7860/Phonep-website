@@ -1,0 +1,433 @@
+body {
+    margin:0;
+    background-color: white;
+}
+
+.container {
+    width: 1200px;
+    margin:auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* start header section */
+
+header {
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+.header-logo {
+    width: 150px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.header-nav {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.header-nav nav a {
+    text-decoration: none;
+    color:black;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.header-nav nav a:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    /* color: blueviolet; */
+}
+
+/* Start title */
+
+.title-image {
+    position: relative;
+    height: 700px;
+}
+
+.title-image img {
+    width: 100%;
+    height: 700px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.image-txt {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+}
+
+.image-txt h1 {
+    font-size: 40px;
+}
+
+.image-txt p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.image-txt a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.image-txt a:hover {
+    background-color: rgb(202, 255, 123);
+}
+
+/* Demo Title of Demo.html page */
+
+.demo {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(253, 144, 144, 0.438)), url('/emile-perron-xrVDYZRGdw4-unsplash.jpg');
+    height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Start of Features section */
+
+.features {
+    margin:60px auto;
+}
+
+.features-txt {
+    width: 45%;
+}
+
+.features-txt h2 {
+    margin:40px auto;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.features-txt h3 {
+    margin:20px auto;
+}
+
+.features-txt p {
+    margin:30px auto;
+}
+
+.border {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.features-vde {
+    width: 45%;
+    margin:auto;
+}
+
+/* Start of Safety Section */
+
+.safety {
+    background: linear-gradient(rgba(137, 43, 226, 0.322), rgba(137, 43, 226, 0.068));
+    height: 300px;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.safety-box {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url('/trust-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 208px;
+    background-color: rgb(154, 94, 211);
+    border-radius: 30px;
+    margin-top: -100px;
+}
+
+.safety-box .safety-box-img {
+    width: 10%;
+}
+
+.safety-box .safety-box-txt {
+    width: 50%;
+}
+
+/* Start of apps Section */
+
+.apps {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.apps h1{
+    color: purple;
+    font-size: 60px;
+    position: relative;
+    bottom: 20%;
+    left:5%
+}
+
+.apps-box a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background-color: rgb(4, 180, 250);
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 43%;
+}
+
+.apps-box a:hover{
+    background-color: skyblue;
+}
+
+.apps-box img{
+    width:100%;
+}
+
+/* start of business */
+
+.business {
+    margin: 60px auto;
+}
+
+.busi-img {
+    width:65%;
+    margin:auto;
+}
+
+.busi-txt h2{
+    margin:40px auto;
+    color:blueviolet;
+    font-size: 40px;
+}
+
+.busi-txt h5{
+    margin:40px auto;
+    color:black;
+    font-size:40px;
+}
+
+.busi-txt h4{
+    margin:20px auto;
+    color:blueviolet;
+    font-size:30px;
+}
+
+.busi-txt p{
+    margin:30px auto;
+    font-size:15px;
+}
+
+.border{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/* start of press */
+.press {
+    margin-top:50px;
+}
+
+.press h1{
+    text-align:center;
+    font-size:50px;
+    color:blueviolet;
+}
+
+.press p{
+    text-align: center;
+    font-size:20px;
+}
+
+.press .container {
+    width:1200px;
+    margin:auto;
+    border:1px solid #000;
+}
+
+.press .row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.p-box{
+    width:25%;
+    background-color: whitesmoke;
+    margin:50px auto;
+    padding:20px;
+    border:1px solid rgb(97, 85, 85);
+    text-align:justify;
+}
+
+.p-box h6{
+    margin-top: 50px;
+    font-size:20px;
+}
+
+.p-box h5{
+    margin-top: 50px;
+    font-size:20px;
+}
+
+.press a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    background-color: rgb(4, 180, 250);
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 43%;
+}
+
+.press a:hover{
+    background-color: skyblue;
+}
+
+/* start of numbers */
+.numbers {
+    margin:120px auto;
+    width:100%;
+    height:713px;
+    background-color: rgba(65,5,121,0.753);
+}
+
+.num-box{
+    width:100%;
+    margin-left:-200px;
+}
+
+.num-box-1 {
+    width:110%;
+    margin:50px 50px;
+}
+
+.num-txt{
+    width:15%;
+    margin: 50px 40px;
+    padding:25px;
+    color:white;
+}
+
+.num-txt p{
+    font-size:30px;
+}
+
+.num-txt h2{
+    font-size: 45px;
+    font-style: italic;
+}
+
+.num-box-img img{
+    width:120%;
+    margin-top:-150px;
+}
+
+/* footer */
+
+.foot-text-box {
+    width: 100%;
+    margin-top: -70px;
+    padding: 0px 50px;
+}
+.foot-img img {
+    width: 200%;
+    margin-left: -200px;
+}
+.foot-text-box h3 {
+    margin-top: -20px;
+    margin-right: 30px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.foot-link a {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px auto;
+    text-decoration: none;
+    color: black;
+}
+.foot-link a:hover {
+    color: blueviolet;
+}
+
+.foot-link p {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.foot-link1 a {
+    display: block;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 45px;
+    color: black;
+}
+
+.foot-link1 a:hover {
+    color: blueviolet;
+}
+.foot-link2 a {
+    display: block;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+}
+.foot-link2 a:hover {
+    color: blueviolet;
+}
+.foot-link3 img {
+    width: 60%;
+    margin-left: 30px;
+}
+
+.foot-link4 a {
+    display: block;
+    font-size: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: black;
+}
+.foot-link4 a img {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 15px;
+    padding: auto 20px;
+}
+.foot-link4-1 {
+    width: 100%;
+    border-radius: 30px;
+    border: 0.5px solid black;
+}
